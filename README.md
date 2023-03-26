@@ -1,4 +1,3 @@
-
 # Udacity Full Stack Javascript Developer Nanodegree
 
 1, External image processing API
