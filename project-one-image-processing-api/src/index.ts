@@ -1,4 +1,5 @@
 import express from "express";
+import { imageScaler } from "./imageScalingService";
 
 const imageResizerApp: express.Express = express();
 const port: number = 3000;
