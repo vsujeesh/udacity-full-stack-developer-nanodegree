@@ -1,1 +1,1 @@
-console.log("new project initialised")
+console.log("new project initialised");
