@@ -22,16 +22,18 @@ Install all dependencies for the project to run
 npm install
 ```
 
-Build the project
+Build the project after linting
 
 ```bash
-npm run build
+npm run lint && npm run build
 ```
 
-Start the server
+Start the server after running tests to make sure functionality is intact
 
 ```bash
-npm run start
+npm run test && npm run start
 ```
 
 ## Using the Server
+
+Images are stored in `/pictures/converted` for converted output images and in `/pictures/original` for original images.
